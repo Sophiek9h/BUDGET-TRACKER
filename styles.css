@@ -28,6 +28,7 @@ body {
     margin: auto;
     margin-bottom: 40px;
     border: rgb(47, 26, 54) 1px solid;
+    box-shadow: 0 4px 8px rgba(47, 26, 54, 0.1);
 }
 
 .form-section form .btn{
