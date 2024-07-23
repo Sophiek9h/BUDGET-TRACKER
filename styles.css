@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: rgb(47, 26, 54) !important; 
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    /* margin: auto; */
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.form-section {
+    margin-top: 5%;
+    color: rgb(47, 26, 54);
+    font-size: 18px;
+}
+
+.form-section form input{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 40px;
+    border: rgb(47, 26, 54) 1px solid;
+}
+
+.form-section form .btn{
+    background-color: rgb(47, 26, 54);
+    border: #ffffff 1px solid;
+}
+
+.table-section {
+    margin-top: 5%;
+}
+
+.table-section .table {
+    margin-bottom: 20px;
+}
+
+.table-section .totals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.table-section .expenses,
+.table-section .remaining
+ {
+    background-color: rgb(47, 26, 54);
+    padding: 30px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.table-section .total-money{
+    background-color: rgb(47, 26, 54);
+    padding: 50px;
+    margin: auto;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.table-section .expenses span,
+.table-section .remaining span,
+.table-section .total-money span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(47, 26, 54) !important;
+    color: white;
+    padding: 20px 0;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bi {
+    font-size: 1.5em;
+}
